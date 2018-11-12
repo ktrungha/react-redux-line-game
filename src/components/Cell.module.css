@@ -1,0 +1,23 @@
+@keyframes bounce {
+  from {top: 0px}
+  to {top: -5px}
+}
+
+.mark {
+  animation-name: bounce;
+  animation-duration: 150ms;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes disappear {
+  from {transform: scale(1)}
+  to {transform: scale(0)}
+}
+
+.disappear {
+  animation-name: disappear;
+  animation-duration: 150ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+}
